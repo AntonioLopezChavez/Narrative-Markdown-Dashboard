@@ -99,7 +99,6 @@ function App() {
       <p className='text-center'>Brenda Saucedo</p>
       <p className='text-center'>Thomas Freund</p>
       <p className='text-center'>Santiago Serarno</p>
-      <p className='text-center'>Juan Daniel Rodríguez</p>
       <hr className='mx-4 mt-2' />
       <div className="md:flex h-screen">
         <div className="md:w-1/2 p-4 pr-2">
@@ -134,7 +133,7 @@ function App() {
         </div>
       </div>
       <hr className='mx-4 mt-2' />
-      <p className='text-center flex justify-center mt-2'>Dashboard hecho con <Heart className='mx-2' /> por Luis Ángel Guzmán</p>
+      <p className='text-center flex justify-center mt-2 sm:visible invisible'>Dashboard hecho con <Heart className='mx-2' /> por Luis Ángel Guzmán</p>
     </>
   );
 }
